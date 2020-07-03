@@ -2,7 +2,7 @@
 
 n = 2
 primeCounter = 0
-while n <= 10_000:
+while n <= 1_000:
     divisor = 0
     for j in range(2, n):
         if n % j == 0:
